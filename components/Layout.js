@@ -1,7 +1,6 @@
 import Head from 'next/head'
 
 
-
 const Layout = ({children, title = "Crypto Tracker"}) => {
      return (
          <div className='layout'>
@@ -12,8 +11,9 @@ const Layout = ({children, title = "Crypto Tracker"}) => {
           </Head>
 
              <div>
+                   
 	              <h1>Club del crypto</h1>
-		
+		           
 	        </div>
         
                <main>{children}</main>
